@@ -174,7 +174,13 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
+  transition-duration:1s;
 }
+.skill-img:hover {
+  transform:scale(1.2);
+  transition-duration:1s;
+}
+
 
 .skill-body {
   flex: 1;
